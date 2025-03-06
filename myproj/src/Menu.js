@@ -14,6 +14,8 @@ function Menu(props) {
             <li><Link to='/Products'>Products</Link></li>
             <li><Link to='/Services'>Services</Link></li>
             <li><Link to='/About'>About</Link></li>
+            <li><Link to='/UseState'>UseState</Link></li>
+            <li><Link to='/Mine'>Mine</Link></li>
             <li>Contact</li>
             <List />
             <Order />

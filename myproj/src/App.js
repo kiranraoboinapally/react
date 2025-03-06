@@ -6,6 +6,9 @@ import Products from './Products.js';
 import Nopage from './Nopage.js';
 import Services from './Services.js';
 import {lazy,Suspense} from 'react';
+import UseState from './UseState.js';
+import Mine from './Mine.js';
+
 
 
 let About=lazy(()=>import('./About'));
@@ -40,7 +43,9 @@ function App() {
       <Route path="/home" element={<Home></Home>}/>
       <Route path="/products/:id" element={<Products/>}/>
       <Route path="/services/" element={<Services/>}/> 
-      <Route path="/about/" element={<About/>}/>  
+      <Route path="/about/" element={<About/>}/> 
+      <Route path="/usestate/" element={<UseState/>}/> 
+      <Route path="/mine" element={<Mine/>}/>
       <Route path="*" element={<Nopage/>}/>
     </Routes>
     </Suspense>
