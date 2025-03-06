@@ -35,7 +35,7 @@ function App() {
     <>
     <button onClick={display} className="button">Submit</button>
     <button onClick={()=>{disc(10)}} className="button">Save</button><br/><br/>
-    <h3 className="textColor">App Component</h3>
+    <h3 className="textColor">App Component</h3><br/><br/>
     <BrowserRouter>
     <Menu name={name} age="24" passData={receiveData}></Menu>
     <Suspense>
@@ -50,6 +50,7 @@ function App() {
     </Routes>
     </Suspense>
     </BrowserRouter>
+    
     </>
   );
 }

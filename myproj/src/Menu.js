@@ -10,12 +10,12 @@ function Menu(props) {
   return (
     <React.Fragment>
         <ul>
-            <li><Link to='/Home'>Home</Link></li>
-            <li><Link to='/Products'>Products</Link></li>
-            <li><Link to='/Services'>Services</Link></li>
-            <li><Link to='/About'>About</Link></li>
-            <li><Link to='/UseState'>UseState</Link></li>
-            <li><Link to='/Mine'>Mine</Link></li>
+            <li><Link className="nav-link" to='/Home'>Home</Link></li>
+            <li><Link className="nav-link" to='/Products'>Products</Link></li>
+            <li><Link className="nav-link" to='/Services'>Services</Link></li>
+            <li><Link className="nav-link" to='/About'>About</Link></li>
+            <li><Link className="nav-link" to='/UseState'>UseState</Link></li>
+            <li><Link className="nav-link" to='/Mine'>Mine</Link></li>
             <li>Contact</li>
             <List />
             <Order />

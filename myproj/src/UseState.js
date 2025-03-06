@@ -8,7 +8,7 @@ export default function UseState()
 return(
 <>
 <h3>Counter Value is:{counter}</h3>
-<button onClick={
+<button className="btn btn-primary" onClick={
     ()=>{
         updateCounter(counter+1)
     }

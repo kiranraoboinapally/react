@@ -1,4 +1,4 @@
- 
+@import "../../myproj/node_modules/bootstrap/dist/css/bootstrap.min.css";
 
 body {
   margin: 0;
@@ -9,8 +9,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-image: url("../public/7.png");
   appearance: scroll;
-  background-image: url("../public/7.png");
-  appearance: scroll;
   display:block;
   max-block-size: unset;
 }
@@ -18,4 +16,11 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align:left;
 }
