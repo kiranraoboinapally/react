@@ -1,0 +1,10 @@
+
+.Menu {
+    text-align: center;
+  }
+  ul{
+    list-style-type: none;
+    display:flex;
+    gap: 20px;
+    color:red;
+  }
