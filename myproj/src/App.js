@@ -8,6 +8,7 @@ import Services from './Services.js';
 import {lazy,Suspense} from 'react';
 import UseState from './UseState.js';
 import Mine from './Mine.js';
+import ApiFile from './ApiFile.js';
 
 
 
@@ -46,6 +47,7 @@ function App() {
       <Route path="/about/" element={<About/>}/> 
       <Route path="/usestate/" element={<UseState/>}/> 
       <Route path="/mine" element={<Mine/>}/>
+      <Route path="/apifile" element={<ApiFile/>}/>
       <Route path="*" element={<Nopage/>}/>
     </Routes>
     </Suspense>

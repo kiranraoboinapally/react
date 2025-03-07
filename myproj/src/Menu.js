@@ -15,6 +15,7 @@ function Menu(props) {
             <li><Link className="nav-link" to='/Services'>Services</Link></li>
             <li><Link className="nav-link" to='/About'>About</Link></li>
             <li><Link className="nav-link" to='/UseState'>UseState</Link></li>
+            <li><Link className="nav-link" to='/ApiFile'>API File</Link></li>
             <li><Link className="nav-link" to='/Mine'>Mine</Link></li>
             <li>Contact</li>
             <List />
@@ -27,6 +28,7 @@ function Menu(props) {
         <p>My age is: {props.age}</p>
         <p>{props.children}</p>
         <button onClick={() => { props.passData(n); }} className="button">Send</button><br/><br/>
+        
     </React.Fragment>
   );
 }
