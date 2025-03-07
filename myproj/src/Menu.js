@@ -10,7 +10,7 @@ function Menu(props) {
   return (
     <React.Fragment>
         <ul>
-            <li><Link className="nav-link" to='/Home'>Home</Link></li>
+            <li><Link className="nav-link" to='/Home'><i className="fas fa-house" style={{ marginRight: '8px',cursor:'pointer' }}></i>Home</Link></li>
             <li><Link className="nav-link" to='/Products'>Products</Link></li>
             <li><Link className="nav-link" to='/Services'>Services</Link></li>
             <li><Link className="nav-link" to='/About'>About</Link></li>

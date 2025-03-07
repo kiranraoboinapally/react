@@ -38,7 +38,7 @@
 }
 
 h3 {
-  display: inline;
+  display:inline;
   color: #00ff08;
   text-justify: auto;
   background-color: black;
@@ -59,8 +59,7 @@ h3 {
   border: none;
   border-radius: 10px;
   border-color: #2962ff;
-  border-style: groove
-  ;
+  border-style: groove;
   cursor: pointer;
 }
 
